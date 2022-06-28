@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+
+
+
+body{
+    font-family: 'Fredoka One', cursive;
+    align-content: center;
+    color: rgb(45, 42, 42);
+    padding: 0;
+    margin: 0;
+    background-color: orange;
+
+}
+#navbar{
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 5px rgb(175, 172, 172);
+}
+#navbar>ul{
+
+    display: flex;
+    margin-right: 70px;
+}
+#navbar>#title{
+   font-family: 'Dosis', sans-serif;
+   color: wheat;
+   font-weight: bold;
+   word-spacing: 5px;
+   font-size: x-large;
+   margin-left: 65px;
+   animation: crazy 20s 1s infinite;
+   animation-timing-function: ease-in-out;
+}
+@keyframes crazy {
+    0%{color: wheat;}
+    7%{color: rgb(84, 82, 82);}
+    14%{color: black;}
+    21%{color: brown;}
+    28%{color: maroon;}
+    35%{color: red;}
+    42%{color: orangered;}
+    49%{color: orange;}
+    56%{color: yellow;}
+    63%{color: greenyellow;}
+    70%{color: green;}
+    77%{color: rgb(28, 145, 106);}
+    84%{color: lightskyblue;}
+    91%{color: aquamarine;}
+    98%{color: wheat;}
+
+    
+}
+
+li{
+    border: 1px solid rgb(225, 221, 221);
+    border-radius: 25px;
+    margin: 0px 35px;
+    padding-top: 8px;
+    list-style: none;
+}
+li:hover{
+background-color: rgb(42, 40, 40);
+}
+a{
+    margin: 0px 15px;
+    padding: 0px;
+    color: gainsboro;
+    text-decoration: none;
+    animation: blink 3s 1s infinite;
+    animation-timing-function: ease-in-out;
+}
+    @keyframes blink {
+        0%{color: gainsboro}
+        50%{color: rgb(0, 0, 0);}
+        100%{color: gainsboro;}
+      }
+      
+a:hover{
+    animation: pause;
+    color: rgb(255, 255, 255);
+}
+#mainBox{
+  
+
+    height: 295px;
+    padding:150px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* border-radius: 20px; */
+}
+h2{
+
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    padding-top: 30px;
+    align-items: center;
+    height: 100px;
+    font-size: xx-large;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    animation: disco 20s 1s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes disco {
+ 0%{color: wheat;}
+ 7%{color: rgb(84, 82, 82);}
+ 14%{color: black;}
+ 21%{color: brown;}
+ 28%{color: maroon;}
+ 35%{color: red;}
+ 42%{color: orangered;}
+ 49%{color: orange;}
+ 56%{color: yellow;}
+ 63%{color: greenyellow;}
+ 70%{color: green;}
+ 77%{color: rgb(28, 145, 106);}
+ 84%{color: lightskyblue;}
+ 91%{color: aquamarine;}
+ 98%{color: wheat;}
+
+ 
+}
+
+
+button{
+    margin: 10px auto;
+    background-color: white;
+    height: 40px;
+    border: 2px solid rgb(171, 168, 168);
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    color: rgb(171, 168, 168);
+}
+button:hover{
+    color: darkslategrey;
+    border: 2px solid darkslategrey;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+body{
+    background-image: url(https://wallpapermemory.com/uploads/162/dinosaur-background-hd-1680x1050-73895.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.game{
+    box-shadow: -5px 5px 15px wheat;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    border-radius: 15px;
+    /* background-color: rgb(206, 187, 187); */
+    width: 500px;
+    height: 200px;
+    border:none;
+    margin: auto;
+}
+#character{
+    left: 15px;
+    width: 20px;
+    height: 50px;
+    /* background-color: rgb(102, 125, 10); */
+    background-image: url(https://i.kym-cdn.com/photos/images/original/002/357/085/b4d.png);
+    position:relative;
+    top: 150px;
+}
+.animate{
+    animation: jump 0.3s linear;
+}
+@keyframes jump{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+
+#block{
+    background-color: rgb(64, 27, 27);
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 130px;
+    left: 500px;
+    animation: block 1s infinite linear;
+}
+@keyframes block{
+    0%{left: 500px}
+    100%{left: -20px}
+}
+p{
+    position: absolute;
+    top: 20%;
+    left: 43%;
+    font-weight: bolder;
+    text-align: center;
+    font-size: xx-large;
+}
+#scoreSpan{
+    color: green;
+}

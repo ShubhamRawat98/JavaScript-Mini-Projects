@@ -1,0 +1,30 @@
+*{
+    text-align: center;
+}.qnaSection{
+    /* display: grid; */
+    height: 50%;
+    width: 30%;
+    margin: auto;
+}
+.questionBox>p{
+    color: white;
+    background-color: chartreuse;
+}
+.answerText{
+    display: none;
+    height: 0;
+    transition: all 1s linear;
+}
+.showAnswer .answerText{
+    height: 100%;
+    display: block;
+}
+.minusIcon{
+    display: none;
+}
+.showAnswer .minusIcon{
+    display: inline;
+}
+.showAnswer .plusIcon{
+    display: none;
+}

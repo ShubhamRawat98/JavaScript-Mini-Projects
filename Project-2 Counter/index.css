@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: darkslategrey;
+
+}
+main{
+    position: relative;
+    height: 400px;
+    width: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+   background-color: rgb(48, 85, 85);
+    margin-top: 150px;
+    border-radius: 50px;
+}
+h2{
+    position: absolute;
+    top:-20px;
+    font-size: 60px;
+    color: white;
+    font-family: sans-serif;
+
+}
+#number{
+    position: absolute;
+    top: 120px;
+    font-size: 120px;
+    color: white;
+    font-family: sans-serif;
+}
+#buttons{
+
+    position: absolute;
+    top: 280px;
+}
+button{
+    cursor: crosshair;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 3px 12px;
+    border: none;
+    background-color: darkslategrey;
+}
+#decrease{
+    color: rgb(125, 11, 11);
+}
+#increase{
+    color: rgb(31, 182, 58);
+}
+
